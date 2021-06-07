@@ -1,0 +1,17 @@
+terraform.tfstate*
+*.swp
+.terraform*
+helmsman/.helmsman*
+.tmp
+.helmsman-tmp
+*.kubeconfig
+custom.env
+puppet_kubetool.env
+/*.yaml
+.cache
+__pycache__
+.vscode
+*.pem
+*.sshkey*
+.DS_Store*
+.tool-versions

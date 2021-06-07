@@ -1,0 +1,8 @@
+public_subnets      = ["172.31.53.0/24", "172.31.54.0/24", "172.31.55.0/24"]
+private_subnets     = ["172.31.50.0/24", "172.31.51.0/24", "172.31.52.0/24"]
+azs                 = ["eu-west-2a", "eu-west-2b", "eu-west-2c"]
+internet_gateway_id = "igw-ac099xxx"
+vpc_id              = "vpc-a87b2xxx"
+
+cluster_name   = "opsfleet-eks"
+s3_bucket_name = "app1-123456xxx"
